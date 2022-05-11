@@ -28,8 +28,22 @@
     background-color: blue;
     width: 25px;
     height: 25px;
-    margin: 12px 12px 0 0;
+    margin: 12px;
 }
-.blue:first-child {
+.blue.last {
     margin-right: 0;
 }
+.fix {
+    display: inline-block;
+    vertical-align: top;
+}
+.black {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    margin: 12px ;
+}
+.black.first {
+    margin-left: 0;
+}
+
