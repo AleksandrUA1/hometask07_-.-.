@@ -51,8 +51,6 @@
 }
 .big-space {
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .box {
     width: 200px;
@@ -70,9 +68,11 @@
     height: 50px;
     margin-bottom: 18px;
 }
-.small-space {
-    width: 220px;
+.center {
     margin-left: auto;
     margin-right: auto;
+}
+.work-space {
+    width: 220px;
     padding: 5px;
 }
